@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapps"
+    tools:context=".Paskibra">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp">
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:src="@drawable/paskib"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/medium"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:text="Paskibra"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/heavy"
+        android:text="Paskibraka adalah singkatan dari Pasukan Pengibar Bendera Pusaka dengan tugas utamanya untuk mengibarkan dan menurunkan Bendera Pusaka (kini duplikat) dalam upacara peringatan Hari Kemerdekaan Republik Indonesia dan Proklamasi Kemerdekaan Republik Indonesia di tiga tempat, yakni tingkat kabupaten/kota, provinsi, dan nasional. Anggotanya berasal dari pelajar SMA/sederajat kelas 10 dan/atau 11."
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasukan Pengibar Bendera Pusaka (Paskibraka) merupakan putra-putri terbaik bangsa, kader pemimpin bangsa yang direkrut dan diseleksi secara bertahap dan berjenjang melalui sistem dan mekanisme pendidikan dan pelatihan yang menanamkan nilai-nilai kebangsaan serta penguatan aspek mental dan fisik agar memiliki kemampuan prima dalam melaksanakan tugas sebagai pasukan pengibar bendera pusaka. Paskibraka berada dibawah binaan dan asuhan Kementerian Pemuda dan Olahraga Republik Indonesia."
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/heavy"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

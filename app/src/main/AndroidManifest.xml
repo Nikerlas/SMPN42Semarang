@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.smk9smg.smpn42semarang">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN42Semarang">
         <activity
-            android:name=".Perpus"
+            android:name=".Osis"
+            android:exported="false" />
+        <activity
+            android:name=".Pramuka"
+            android:exported="false" />
+        <activity
+            android:name=".Paskibra"
+            android:exported="false" />
+        <activity
+            android:name=".Berita"
             android:exported="false" />
         <activity
             android:name=".Galeri"

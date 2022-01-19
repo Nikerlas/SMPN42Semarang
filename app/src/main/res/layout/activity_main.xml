@@ -14,7 +14,7 @@
         android:layout_height="300dp"
         android:src="@drawable/smpn42"
         android:layout_gravity="center"
-        android:layout_marginTop="225dp"/>
+        android:layout_marginTop="200dp"/>
 
     <TextView
         android:layout_width="wrap_content"

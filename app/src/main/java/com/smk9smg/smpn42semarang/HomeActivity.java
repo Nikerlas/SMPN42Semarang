@@ -1,11 +1,11 @@
 package com.smk9smg.smpn42semarang;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -13,18 +13,19 @@ public class HomeActivity extends AppCompatActivity {
     CardView cvGuruStaff;
     CardView cvEkskul;
     CardView cvFasilitas;
-    CardView cvPerpus;
+    CardView cvBerita;
     CardView cvGaleri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
         cvProfil = findViewById(R.id.cv_Profil);
         cvGuruStaff = findViewById(R.id.cv_GuruStaff);
         cvEkskul = findViewById(R.id.cv_Ekskul);
         cvFasilitas = findViewById(R.id.cv_Fasilitas);
-        cvPerpus = findViewById(R.id.cv_Perpus);
+        cvBerita = findViewById(R.id.cv_Berita);
         cvGaleri = findViewById(R.id.cv_Galeri);
 
         getSupportActionBar().hide();
@@ -34,7 +35,6 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this,Profil.class);
                 startActivity(intent);
-
             }
         });
 
@@ -62,10 +62,10 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        cvPerpus.setOnClickListener(new View.OnClickListener() {
+        cvBerita.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this,Perpus.class);
+                Intent intent = new Intent(HomeActivity.this, Berita.class);
                 startActivity(intent);
             }
         });
@@ -79,4 +79,5 @@ public class HomeActivity extends AppCompatActivity {
         });
 
     }
+
 }

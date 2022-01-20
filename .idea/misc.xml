@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/drawable/ekstra.xml" value="0.240625" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/drawable/fasilitas.xml" value="0.240625" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/drawable/side_nav_bar.xml" value="0.12604166666666666" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_berita.xml" value="0.22447916666666667" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_ekskul.xml" value="0.25" />
-        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_fasilitas.xml" value="0.29322916666666665" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_fasilitas.xml" value="0.18" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_galeri.xml" value="0.29322916666666665" />
-        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_guru_staff.xml" value="0.29322916666666665" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_guru.xml" value="0.25" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_guru_staff.xml" value="0.18" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_home.xml" value="0.29322916666666665" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_menu_navigation.xml" value="0.29322916666666665" />
@@ -18,7 +20,9 @@
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_perpus.xml" value="0.29322916666666665" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_pramuka.xml" value="0.25" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_profil.xml" value="0.29322916666666665" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_struktur_organisasi.xml" value="0.3024561403508772" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_task_manager.xml" value="0.15625" />
+        <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/activity_upacara.xml" value="0.22447916666666667" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/content_menu_navigation.xml" value="0.29322916666666665" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/iamge_item.xml" value="0.27760416666666665" />
         <entry key="..\:/coding/Android/AndroidStudioProject/SMPN42Semarang/app/src/main/res/layout/image_item.xml" value="0.29322916666666665" />

@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN42Semarang">
         <activity
+            android:name=".Artshow"
+            android:exported="false" />
+        <activity
+            android:name=".Perjusa"
+            android:exported="false" />
+        <activity
+            android:name=".Senam"
+            android:exported="false" />
+        <activity
+            android:name=".Spiritspada"
+            android:exported="false" />
+        <activity
+            android:name=".Upacara"
+            android:exported="false" />
+        <activity
             android:name=".Osis"
             android:exported="false" />
         <activity

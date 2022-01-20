@@ -1,8 +1,8 @@
 package com.smk9smg.smpn42semarang;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class GuruStaff extends AppCompatActivity {
 
@@ -12,5 +12,6 @@ public class GuruStaff extends AppCompatActivity {
         setContentView(R.layout.activity_guru_staff);
 
         getSupportActionBar().hide();
+
     }
 }

@@ -1,8 +1,10 @@
 package com.smk9smg.smpn42semarang;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
+import com.github.barteksc.pdfviewer.PDFView;
 
 public class Profil extends AppCompatActivity {
 
@@ -12,5 +14,11 @@ public class Profil extends AppCompatActivity {
         setContentView(R.layout.activity_profil);
 
         getSupportActionBar().hide();
+
+        PDFView pdfView = findViewById(R.id.pdf_view);
+        pdfView.fromAsset("sambutan.pdf")
+                .enableSwipe(true)
+                .enableDoubletap(true)
+                .load();
     }
 }
